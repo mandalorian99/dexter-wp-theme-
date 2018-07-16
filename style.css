@@ -1,0 +1,327 @@
+/**
+ * Theme Name:Dexter view
+ * Author:mahendra choudhary
+ * Author URI:http://thecodestuff.com
+ * Description:lorem ipsum dollar sit amen leo franchis sit amen kudo lamster dhe 
+ * Version:1.0
+ */
+ html{
+   margin-top:0 !important ;
+ }
+ body{
+     margin:0 ;
+ }
+ /**
+  * menu style 
+  */
+  .wrapper{
+      background-image:url('http://localhost/wp/wp-content/themes/dexter/assest/image/hero.jpg') ;
+      width:100% ;
+      height: 650px ;
+      background-repeat:no-repeat ;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    word-wrap: normal;
+  }
+  @media(max-width: 768px){
+    .wrapper{
+      width:100% ;
+    }
+
+    .hero-text{
+      text-size:14px;
+      text-overflow: initial;
+    }
+
+    .hero-text h1{
+      text-size:18px;
+    }
+  }
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color:#fff;
+    background-color: #C07932;
+    text-align: center;
+    cursor: pointer;
+    margin-right:40px ;
+    margin-left:40px ;
+    margin-top:40px ;
+  }
+  
+  .hero-text button:hover {
+    background-color: #040E24;
+    color: white;
+  }
+  .logo{
+      margin-left:100px;
+  }
+  
+
+  .header{
+      height: 100px;
+      opacity: 1 ;
+  }
+  .box{
+      border:1px solid ;
+      height: 80px ;
+  }
+
+  .mymenu img{
+      width:70px; 
+      height:70px; 
+  }
+
+  /*section 2 | location style*/
+  .box2{
+      height:400px; 
+  }
+
+  /*image overlay style*/
+
+  .imgwrapper {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .loc-btn{
+    border:1px solid #fff ;
+    color:white ;
+    border-radius: 0 ;
+    width:150px;
+  }  
+  .loc-btn:hover{
+    background-color:#e3451e ;
+    color:#fff ;
+    opacity: 1;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color:rgb(46, 44, 43);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .imgwrapper:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    width:450px; 
+    margin-left:-15px;
+    opacity:0.8 ;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .imgwrapper img{
+      max-width:500px;
+      max-height:400px;
+      height:400px;
+      width:450px;
+      margin-left:-15px;
+  }
+
+  /**
+   * menu menu style rules 
+   */
+
+   #main-menu-wrapper{
+     width:100% ;
+     height:auto ;
+     margin-top:20px;
+     /*background-color:red ;*/
+   }
+
+   .main-menu{
+     height:650px; 
+   }
+
+   .menu_list{
+      margin-top:30px;
+   }
+
+  /*heading style rule*/
+  .heading{
+    font-size: 52px;
+    text-align: center ;
+    padding-top:20px;
+    color: #e3451e;
+    font-family:Hind,sans-serif;
+  }
+  .heading h1{
+    font-family:serif ;
+    font-size:50px;
+    font-weight: bolder;
+  }
+
+  /*main menu gif*/
+  .main_menu_gif{
+    height:500px;
+    width:400px;
+    z-index:5 ;
+  }
+
+  .menu_gif_wrapper{
+    width:419px ;
+    height:520px;
+    box-shadow:2px 4px 30px 1px #040E24 ;
+    z-index:5 ;
+  }
+  .menu_gif_wrapper img{
+    margin: 8px;
+  }
+
+  /*menu items style rule*/
+  .menu_item_wrapper .menu_items{
+    margin-top:10px;
+    margin-left:25px;
+  }
+  
+  .menu_items dl dt{
+    margin-top:30px ;
+    font-size:22px;
+    color:#2e3474 ;
+  }
+
+  .menu_items dl  dd{
+    font-family: Hind,sans-serif ;
+    color:#9295b0 ;
+    font-size:16px ;
+  }
+
+   span{
+    color:red ;
+    text-align: right; 
+  }
+
+  /*menu btn*/
+  .menu-btn{
+    border:1px solid ;
+  }
+
+  .menu-btn:hover{
+    background-color:#e3451e ;
+    color:white ;
+  }
+
+
+  /**
+   *============reservation section style rule===============
+   */
+
+   #reservation-wrapper{
+     /*background-color:red; */
+     background-image: url("http://localhost/wp/wp-content/themes/dexter/assest/image/bg-reservation.jpg") ;
+     width:100% ;
+     height:auto ;
+     margin-top:20px;
+     clear:both ;
+   }
+   .form-wrapper{
+     width:100% ;
+     height:650px;
+   }
+   
+   .form-box{
+     height: 500px ;
+     /*margin:0 auto ;*/
+     margin-top:30px;
+     background-color:#fff ;
+   }
+
+   .form-box img{
+     height:500px;
+     margin-left:-15px;
+   }
+
+.border{
+  border:1px solid #fff ;
+}
+
+ .res-heading{
+  font-size: 52px;
+  text-align: center ;
+  padding-top:20px;
+  color: #fff;
+  font-family:Hind,sans-serif;
+}
+.res-heading h1{
+  font-family:serif ;
+  font-size:50px;
+  font-weight: bolder;
+}
+
+/**
+ * ============Footer style rules===========
+ */
+
+ #footer-wraper{
+   background-color:#040e24;
+   color:#fff ;
+   width:100% ;
+ }
+
+ .footer-container{
+   height:300px;
+ }
+
+ .footer-row{
+   margin-top:20px;
+ }
+
+ .footer-row h3{
+   font-size: 20px;
+    line-height: 26px;
+    color: #c07932;
+    text-transform: uppercase;
+    letter-spacing: 0.035em;
+ }
+
+ /*footer menu css style rule*/
+
+ .bottom-nav{
+   text-decoration:none ;
+   list-style-type: none ;
+   text-align: left ;
+ }
+
+ .bottom-nav li a{
+   color:#fff ;
+ } 
+
+ .test{
+   
+ }
+
+ .btm-heading{
+   margin-left:35px;
+ }

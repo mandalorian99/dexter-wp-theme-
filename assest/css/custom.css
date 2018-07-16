@@ -1,0 +1,29 @@
+.mymenu{
+	margin-top:27px ;color:#fff; 
+	font-size:17px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color:red ;
+} 
+.mymenu .navbar-default{
+	background:none ;
+	border:none;
+}
+
+.mymenu .navbar-default ul li a{
+	color:#fff ;
+	font-size:21px;
+	font-family: serif ;
+}
+
+.mymenu .navbar-nav .active a{background-color:#C07932 ;color:#fff ;}
+.mymenu .navbar-nav li a:hover{background-color:#C07932 ;color:#fff ;}
+
+.mymenu .navbar-nav .active a:hover{background-color:#C07932 ;color:#fff ;}
+
+/*over riding pull right */
+@media(max-width:1200px){
+.mymenu .pull-right{float:none !important;}	
+}
+@media (max-width:425px){
+	.mymenu .navbar-default ;
+}
